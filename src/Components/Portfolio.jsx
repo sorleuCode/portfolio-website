@@ -31,7 +31,7 @@ const portfolioData = [
 const Portfolio = () => {
     return (
         <fieldset name='portfolio' className=' carousel-container aboutAnim mt-16 flex  justify-center flex-wrap p-5 rounded-md bg-gray-800 font text-md text-gray-300 ' >
-            <legend className='color-white font-medium text-2xl'>Portfolio</legend>
+            <legend className='color-white font-medium text-2xl ml-10'>Portfolio</legend>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-0">
           {portfolioData.map(( data) => (
             <div key={data.id} className="shadow-md h-fit shadow-gray-600 rounded-lg">
