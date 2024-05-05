@@ -61,7 +61,7 @@ const Main = () => {
           <FaWhatsapp />
         </>
       ),
-      href: "mailto:soliumuhammed953@gmail.com",
+      href: "https://wa.me/2347046471785",
       style: "rounded-lg",
       name: "whatsapp"
     },
