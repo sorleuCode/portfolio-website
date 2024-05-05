@@ -34,7 +34,8 @@ Header {
         -webkit-background-clip: text;
         overflow: hidden;
         text-wrap: nowrap;
-        animation: typing-text steps(40) 4s infinite, blink linear 0.5s;
+        animation: typing-text steps(40) 4s;
+        animation-iteration-count: infinite;
         display: inline-block;
         width: max-content;
         

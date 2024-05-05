@@ -84,7 +84,7 @@ const Main = () => {
       <article className='flex flex-col md:flex-row gap-5'>
         <div>
           <h1 className='font-bold text-2xl md:text-3xl lg:text-4xl text-gray-100 fon'>Hello, i am Soliu,</h1>
-          <h2 className='font-bold text-xl md:text-2xl lg:text-3xl font-mono mt-2 gradiant-text text-cyan-400'>Full Stack Developer</h2>
+          <h2 className='font-bold text-xl md:text-2xl lg:text-3xl font-mono mt-2 gradiant-text text-white'>Full Stack Developer</h2>
           <p className='mt-5 text-lg md:text-xl text-gray-400'>I work towards contributing values and making meaningful impact in the tech industry. Seeking development skills with the focus on collaboration, communication and passion.</p>
           <ul className='w-full flex gap-3 my-5 lg:hidden'>
             {socials.map(({id, child, href, style, name, download}) => (
