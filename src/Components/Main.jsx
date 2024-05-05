@@ -85,7 +85,7 @@ const Main = () => {
         <div>
           <h1 className='font-bold text-2xl md:text-3xl lg:text-4xl text-gray-100 fon'>Hello, i am Soliu,</h1>
           <h2 className='font-bold text-xl md:text-2xl lg:text-3xl font-mono mt-2 gradiant-text text-cyan-400'>Full Stack Developer</h2>
-          <p className='mt-5 text-sm sm:text-lg md:text-xl text-gray-400'>I work towards contributing values and making meaningful impact in the tech industry. Seeking development skills with the focus on collaboration, communication and passion.</p>
+          <p className='mt-5 text-lg md:text-xl text-gray-400'>I work towards contributing values and making meaningful impact in the tech industry. Seeking development skills with the focus on collaboration, communication and passion.</p>
           <ul className='w-full flex gap-3 my-5 lg:hidden'>
             {socials.map(({id, child, href, style, name, download}) => (
               <li key={id} className={`hover:scale-125 duration-300`}><a target='_blank' className={` text-cyan-400 ${style} text-xl sm:text-2xl md:text-3xl`} title={name} href={href} download={download}>{child}</a></li>
