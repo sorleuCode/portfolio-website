@@ -14,7 +14,7 @@ const Header = () => {
   ]
 
   return (
-    <div className=' h-20 bg-gray-900 text-white no-underline mb-16 '>
+    <div className=' h-10 md:h-20 bg-gray-900 text-white no-underline mb-16 '>
       <div className='flex justify-between items-center p-2 boxShadow text-gray-300'>
         <div name="home">
           <h1 className='text-2xl cursor-pointer'><Link to='home' smooth duration={500}>sorleuCode</Link></h1>
