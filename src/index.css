@@ -18,9 +18,9 @@ Header {
     .aboutAnim {
             border-color: #171618;
             animation-name: blinking;
-            animation-duration: 2s;
+            animation-duration: 7s;
             animation-iteration-count: infinite;
-            box-shadow: inset -1px -1px 4px 0px #171618;
+            box-shadow: inset -1px -1px 3px 0px #171618;
           }
           
 
