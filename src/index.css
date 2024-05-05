@@ -1,0 +1,56 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Inter:wght@100..900&display=swap"); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+Header {
+    width: 100%;
+}
+
+@layer components {
+
+    .boxShadow {
+        box-shadow: inset -1px -1px 4px 0px cyan;
+    }
+
+    .aboutAnim {
+            border-color: #171618;
+            animation-name: blinking;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            box-shadow: inset -1px -1px 4px 0px #171618;
+          }
+          
+
+    @keyframes blinking {
+        50% {
+          box-shadow: inset -1px -1px 8px 1px cyan;
+        }
+      }
+
+    .gradiant-text {
+        -webkit-background-clip: text;
+        overflow: hidden;
+        text-wrap: nowrap;
+        animation: typing-text steps(40) 4s infinite, blink linear 0.5s;
+        display: inline-block;
+        width: max-content;
+        
+    }
+
+
+    @keyframes typing-text {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 100%;
+        }        
+    }
+
+
+
+}
