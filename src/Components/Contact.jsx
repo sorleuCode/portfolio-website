@@ -49,7 +49,7 @@ const Contact = () => {
             type="text"
 
             placeholder="Enter your name"
-            className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+            className="p-2 bg-transparent border-2 border-gray-600 rounded-md text-white focus:outline-none"
           />
           <ValidationError
             prefix="Name"
@@ -64,7 +64,7 @@ const Contact = () => {
             value={emailValue}
             onChange={(e) => setEmailValue(e.target.value)}
             placeholder="Enter your email"
-            className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+            className="my-4 p-2 bg-transparent border-2 border-gray-600 rounded-md text-white focus:outline-none"
           />
           <ValidationError
             prefix="Email"
@@ -80,7 +80,7 @@ const Contact = () => {
 
             placeholder="Enter your message"
             rows="10"
-            className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+            className="p-2 bg-transparent border-2 border-gray-600 rounded-md text-white focus:outline-none"
           ></textarea>
 
           <ValidationError
