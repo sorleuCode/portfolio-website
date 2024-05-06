@@ -35,7 +35,7 @@ const Contact = () => {
  
   return (
     <fieldset name='contacts' className='bg-gradient-to-b from-gray-800 to-black w-full aboutAnim p-5 mt-16 rounded-md'>
-      <legend className='ml-10 color-white font-medium text-2xl'>Contacts</legend>
+      <legend className='m-auto color-white font-medium text-2xl'>Contacts</legend>
       <div className=" flex justify-center items-center">
         <form onSubmit={handleSubmit}
           method="POST"

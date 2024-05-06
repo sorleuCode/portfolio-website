@@ -66,7 +66,7 @@ const Experience = () => {
       name="experience"
       className="bg-gradient-to-b from-gray-800 to-black w-full aboutAnim p-10 mt-16 rounded-md"
     >
-      <legend className='color-white font-medium text-2xl ml-10' >Experience</legend>
+      <legend className='color-white font-medium text-2xl m-auto' >Experience</legend>
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full text-white">
         <div className="w-full grid  sm:grid-cols-3 gap-12 text-center sm:px-0">
           {techs.map(({ id, src, title, style }) => (
